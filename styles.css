@@ -1,1 +1,35 @@
 /*  your css code here. If applicable */
+.container{
+	width:fit-content;
+	border:2px solid black;
+	border-radius:10px;
+	background-color:grey;
+	padding:20px;
+	text-align:center;
+	
+}
+.container div{
+border-radius:50%;
+}
+.container div:first-child{
+	padding:20px;
+	width:fit-content;
+	background-color:green;
+	display:inline-block;
+	margin:auto auto;
+}
+
+.container div:nth-child(2){
+	padding:20px;
+	display:inline-block;
+	width:fit-content;
+	background-color:yellow;
+	margin:auto auto;
+}
+.container div:last-child{
+	padding:20px;
+	display:inline-block;
+	width:fit-content;
+	background-color:red;
+	margin:auto auto;
+}
